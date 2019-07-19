@@ -242,7 +242,7 @@ class ApiClient
                 PHP_MAJOR_VERSION,
                 PHP_MINOR_VERSION,
                 PHP_RELEASE_VERSION,
-                env('IW_NEVERBOUNCE_UA', ''),
+                env('IW_NEVERBOUNCE_UA', '')
             ),
             'Content-Type: ' . $this->contentType
         ]);
